@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="E-commerce/E-commerce.csproj" />
+  <Project Path="E-CommerceTests/E-CommerceTests.csproj" Id="4bac6582-49eb-4ea1-9fcc-b03c93256fa7" />
+</Solution>
