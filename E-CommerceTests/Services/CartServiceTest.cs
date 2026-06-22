@@ -184,6 +184,7 @@ namespace E_CommerceTests.Services
             {
                 UserId = 1,
                 ProductId = product.Id,
+
                 Quantity = 2
             };
 
