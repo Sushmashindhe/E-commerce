@@ -45,6 +45,7 @@ namespace E_commerce.Controllers
             return Ok(bill);
         }
         [HttpPut("increase/{id}")]
+
         public async Task<IActionResult>
         IncreaseQuantity(int id)
         {
@@ -54,7 +55,8 @@ namespace E_commerce.Controllers
             return Ok();
         }
 
-        [HttpPut("decrease/{id}")]
+        [HttpPut("decrease/{id}")] 
+
         public async Task<IActionResult>
         DecreaseQuantity(int id)
         {
